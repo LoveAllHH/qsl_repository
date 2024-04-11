@@ -1,0 +1,7 @@
+ALTER TABLE `multimodal_config`  ADD COLUMN `prompt` text NULL COMMENT '提示词';
+
+ALTER TABLE `multimodal_config`  ADD COLUMN `introduce` text NULL COMMENT '引导语';
+
+ALTER TABLE `multimodal_config`  ADD COLUMN `config` text NULL COMMENT '设置';
+
+ALTER TABLE `multimodal_config`  ADD COLUMN `question_list` text NULL COMMENT '推荐问题';
